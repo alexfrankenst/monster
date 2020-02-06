@@ -1,0 +1,281 @@
+/* -----------css reset code----------------------- */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* -------------code begins here------------------------- */
+/*------------ top section-------------- */
+.head
+{
+    height: 680px;
+    background-size: cover;
+    width: 100%;
+} 
+.topcenter{
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+}
+.topcenter h1,h4{
+    color: white;
+    
+}
+.topcenter h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+.bg-top{
+background: url(../img/26802-1q5gk4m.jpg);
+background-position: center;
+background-size: 1615px;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
+.topcenter .img{
+    padding-top:150px ;
+}
+.topcenter .h
+{
+padding-top: 100px;
+}
+.h h1,h4{
+    padding-top:20px;
+}
+.h h4{
+    font-size: 20px;
+}
+.h ul{
+    padding-top: 20px;
+}
+/* --------------------why section--*Sec-1* ------------------- */
+.why{
+    width: 80%;
+    margin: 0 auto;
+}
+.why h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+}
+.lt{
+    float: left;
+    width: 25%;
+}
+.lclr{
+    clear: left;
+}
+.f1,.f2,.f3{
+    padding-left: 5%;
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 4em;
+}
+.f3{
+    text-align: center!important;
+}
+.why h1{
+    padding-top: 2em;
+}
+.why h3{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* --------------------Sec-2 ------------------- */
+.sec-2{
+    background: url(../img/26802-1q5gk4m.jpg);
+    width: auto;
+     height:400;
+} 
+.ca{
+    width: 50%;
+    margin: 0 auto;
+}
+.sec-2 .text{
+    margin-right: 100px;
+}
+.text h2{
+   padding-top:180px;
+   padding-left:150px ;
+   color: white;
+   font-size: 40px;
+   font-weight: 400;
+   padding-bottom: 10px;
+}
+.text p{
+    padding-left: 150px;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.text a{
+    text-decoration: none;
+    color: white !important;
+    margin-left:150px;
+    margin-top: 20px;
+    border: 1px solid bisque;
+    padding: 5px 25px;
+    background: cadetblue;
+}
+/* =---------------------section-3-----------------=*/
+.sec3lt{
+    float: left;
+    /* width: 50%; */
+}
+.sec3lt img{
+    height: auto;
+    width: 300px;
+}
+.sec3rt{
+    float:right;
+    width: 68%;
+    text-align: left;   
+}
+.sec3rt h1{
+    padding-top:80px ;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.sec3rt p{
+    font-size: 20px;
+    font-weight: thin;
+    
+}
+.s3clr{
+clear: both;
+}
+.sec-3ca{
+    margin: 0 auto;
+    width: 70%;
+}
+.sec-3{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+/* --------------------section-4---------------------- */
+.sec-4{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+.sec-4 h1{
+    font-size: 45px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.sec-4 .cimg{
+    margin: 0 auto;
+}
+.p1,.p2,.p3,.p4{
+    float: left;
+    width: 22%;
+    padding-left:3% ;
+}
+.lclr{
+    clear: left;
+}
+.p1 img,.p2 img,.p3 img,.p4 img{
+    width: 100%;
+    height: auto;
+}
+.sec-4 h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px!important;
+}
+/* ------------------------footer----------------------------------- */
+footer{
+    background: bisque;
+    margin-top: 100px;
+}
+.ftca{
+    margin: 0 auto;
+    width: 80%;
+    height: 310px;
+}
+.ft1,.ft2,.ft3{
+    float: left;
+    width: 33%;
+}
+.ft1 h3{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ft2 h3{
+    padding-top: 50px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ft2 .in{
+    padding-top: 50px;
+    margin: 10px 0;
+}
+.btn
+{
+    padding:7px 63px;
+    margin-top: 7px;
+}
+.ft3{
+    padding-top: 50px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
